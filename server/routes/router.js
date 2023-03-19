@@ -117,7 +117,7 @@ router.post('/addcart/:id', authenticate, async (req, res) => {
         if (UserContact) {
             const cartData = await UserContact.addcartdata(cart)
             await UserContact.save();
-            console.log(cartData);
+            // console.log(cartData);
             res.status(201).json(UserContact)
 
         } else {
