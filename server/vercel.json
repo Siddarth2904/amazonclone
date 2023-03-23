@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "version": 2,
     "name": "sidamazon",
@@ -7,4 +8,15 @@
     "routes": [
        { "src": "/(.*)", "dest": "/app.js" }
     ]
+=======
+{
+    "version": 2,
+    "name": "sidamazon",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+>>>>>>> cd14b556033f8453e3acdb745477819d8d6dd72f
 }
